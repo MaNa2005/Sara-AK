@@ -215,14 +215,15 @@ Tʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '🔄 Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ �
 Aғᴛᴇʀ ᴛʜᴀᴛ ɪ'ʟʟ sᴇɴᴅ ʏᴏᴜ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ᴘʀɪᴠᴀᴛᴇʟʏ.**"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
+<b>ǫᴜᴇʀʏ:- {qurey}
 
-IMDb Data:
-<i>🧿 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b></i>"""
+<blockquote>┏━━━━━━━━━━━✦
+┣✧ ❖ Title: <a href={url}>{title}</a>
+┣✧ ❖ Genres: {genres} 
+┣✧ ❖ Year: <a href={url}/releaseinfo>{year}</a>
+┣✧ ❖ Result Shown in: {remaining_seconds} <i>seconds</i>
+┣✧ ❖ Rating: <a href={url}/ratings>{rating}</a> / 10</b></i> 
+┗━━━━━━━━━━━✦</blockquote>"""
 
     
     ALL_FILTERS = """
@@ -248,7 +249,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
     OWNER_INFO = """
 <b> ⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ◈ ꜰᴜʟʟ ɴᴀᴍᴇ : ᴜɴᴋɴᴏᴡɴ ✌ 
+ ◈ ꜰᴜʟʟ ɴᴀᴍᴇ : KUSHALHK 
  ◈ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ᴀɴʏ ᴛʏᴘᴇ ᴏғ ʙᴏᴛ ᴛʜᴇɴ ᴅᴍ ᴍᴇ " ᴘᴀɪᴅ " 
  </b>"""
 
