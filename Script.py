@@ -215,7 +215,7 @@ Tʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '🔄 Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ �
 Aғᴛᴇʀ ᴛʜᴀᴛ ɪ'ʟʟ sᴇɴᴅ ʏᴏᴜ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ᴘʀɪᴠᴀᴛᴇʟʏ.**"""
 
     IMDB_TEMPLATE_TXT = """
-<b>ǫᴜᴇʀʏ:- {qurey}
+<b>⚡️ ʜᴇʏ {mention},
 
 <blockquote>┏━━━━━━━━━━━✦
 ┣✧ ❖ Title: <a href={url}>{title}</a>
@@ -223,7 +223,9 @@ Aғᴛᴇʀ ᴛʜᴀᴛ ɪ'ʟʟ sᴇɴᴅ ʏᴏᴜ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ �
 ┣✧ ❖ Year: <a href={url}/releaseinfo>{year}</a>
 ┣✧ ❖ Result Shown in: {remaining_seconds} <i>seconds</i>
 ┣✧ ❖ Rating: <a href={url}/ratings>{rating}</a> / 10</b></i> 
-┗━━━━━━━━━━━✦</blockquote>"""
+┗━━━━━━━━━━━✦</blockquote>
+
+🗳 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ <code>{search}</code></b>"""
 
     
     ALL_FILTERS = """
