@@ -141,7 +141,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🌀 𝐓𝐆 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+iLfZB23wdMJiNjQ1") 
+            InlineKeyboardButton("🌀 𝐊𝐌𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+W4cB_0g7ZWU2NWM1") 
         ])
     else:
         btn = []
@@ -492,7 +492,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
         InlineKeyboardButton("sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-        InlineKeyboardButton("🌀 𝐓𝐆 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+iLfZB23wdMJiNjQ1")
+        InlineKeyboardButton("🌀 𝐊𝐌𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+W4cB_0g7ZWU2NWM1")
     ])
     # else:
     #     btn.insert(0, [
@@ -661,7 +661,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
     btn.insert(0, [
-        InlineKeyboardButton("🌀 𝐓𝐆 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+iLfZB23wdMJiNjQ1"),
+        InlineKeyboardButton("🌀 𝐊𝐌𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+W4cB_0g7ZWU2NWM1"),
         InlineKeyboardButton("Sᴇʟᴇᴄᴛ ᴀɢᴀɪɴ", callback_data=f"seasons#{key}")
     ])
     
@@ -1467,7 +1467,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('✉️ ᴀɴʏ ǫᴜᴇʀʏ ✉️', url='https://telegram.me/Tg_support1_bot')
+            InlineKeyboardButton('✉️ ᴀɴʏ ǫᴜᴇʀʏ ✉️', url='https://t.me/Team_Admins_2023')
         ], [
             InlineKeyboardButton('∙ ꜰɪʟᴛᴇʀs ∙', callback_data='filters'),
             InlineKeyboardButton('∙ ꜰɪʟᴇ sᴛᴏʀᴇ ∙', callback_data='store_file')
@@ -1852,7 +1852,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Tg_support1_bot")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Team_Admins_2023")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2077,7 +2077,7 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
         btn.insert(0, [
-            InlineKeyboardButton("🌀 𝐓𝐆 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+iLfZB23wdMJiNjQ1")
+            InlineKeyboardButton("🌀 𝐊𝐌𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🌀", url=f"https://t.me/+W4cB_0g7ZWU2NWM1")
         ])
     # if ENABLE_TUTORIAL == True:
     #     btn.insert(0, [
